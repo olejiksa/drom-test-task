@@ -11,7 +11,7 @@
 #import "CollectionViewLayout.h"
 #import "ViewController.h"
 
-@interface ViewController () <UICollectionViewDelegate>
+@interface ViewController ()
 
 @property (nonatomic, nonnull, strong) UICollectionView *collectionView;
 @property (nonatomic, nonnull, strong) UIRefreshControl *refreshControl;
