@@ -6,10 +6,8 @@
 //  Copyright © 2020 Oleg Samoylov. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface ViewController : UIViewController
 
-
 @end
-

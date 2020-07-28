@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CollectionViewCell.h
 //  DromTestTask
 //
 //  Created by Oleg Samoylov on 28.07.2020.
@@ -8,8 +8,9 @@
 
 @import UIKit;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface CollectionViewCell : UICollectionViewCell
 
-@property (strong, nonatomic) UIWindow *window;
+- (BOOL)isImageLoaded;
+- (void)setImage:(UIImage *)image;
 
 @end

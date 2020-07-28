@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CollectionViewLayout.h
 //  DromTestTask
 //
 //  Created by Oleg Samoylov on 28.07.2020.
@@ -8,8 +8,6 @@
 
 @import UIKit;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface CollectionViewLayout : UICollectionViewFlowLayout
 
 @end
